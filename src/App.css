@@ -21,10 +21,74 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  cursor: pointer;
 }
 
 .bi {
   color: brown;
   font-size: 1.5rem;
+}
+
+.country-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-label {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-label i {
+  position: absolute;
+  left: 85%;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  border: #eee 2px solid;
+  font-size: inherit;
+}
+
+.search-bar:focus {
+  outline: lightskyblue 2px solid;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.country-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+  padding: 15px;
+}
+
+.country-card {
+  display: flex;
+  gap: 20px;
+  width: 350px;
+  height: 150px;
+  padding: 10px;
+  align-items: center;
+  box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+  width: 50%;
+  height: 100%;
+}
+
+.img-container img {
+  width: 100%;
+  height: 90%;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
