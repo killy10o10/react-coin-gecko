@@ -2,10 +2,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const RETRIEVE_ASYNC_COUNTRIES = 'RETRIEVE_ASYNC_COUNTRIES';
-// const RETRIEVE_COUNTRIES = 'RETRIEVE_COUNTRIES';
-// const url = 'https://restcountries.com/v3.1/alpha/gh';
 const url = 'https://restcountries.com/v3.1/all';
-// const initialState = [];
 
 export const showCountries = createAsyncThunk(
   RETRIEVE_ASYNC_COUNTRIES,
