@@ -53,4 +53,5 @@ const countryReducer = createSlice({
   },
 });
 
+export const { setCountryReducer } = countryReducer.actions;
 export default countryReducer;
