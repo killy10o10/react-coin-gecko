@@ -1,16 +1,17 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+
 import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import CoinInfo from './Components/CoinInfo';
+import HomeList from './Components/HomeList';
+import CountryInfo from './Components/CountryInfo';
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/CoinInfo" element={<CoinInfo />} />
+        <Route path="/" element={<HomeList />} />
+        <Route path="/CountryInfo" element={<CountryInfo />} />
       </Routes>
     </>
   );
