@@ -6,7 +6,7 @@ const Home = (props) => {
     <>
       <div className="country-card">
         <div className="img-container">
-          <NavLink to="/CountryInfo"><img src={country.flag} alt={country.name} /></NavLink>
+          <NavLink to="/CountryInfo" state={country}><img src={country.flag} alt={country.name} /></NavLink>
         </div>
         <div className="text-container">
           <h4>{country.name}</h4>
