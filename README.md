@@ -65,11 +65,17 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+ ## Original Design By
+ -Nelson Sakwa
 
+
+## Acknowledgments
 -Microverse community
+-Nelson Sakwa
+
 
 - Hat tip to Microverse's code reviewers and to everyone who reviewed my project and made suggestions.
+- Thanks to Nelson Sakwa for the beautiful design.
 
 ## 📝 License
 
