@@ -15,6 +15,10 @@
 
 - [App Live Link]()
 
+## Video Presentation
+
+- [Video presentation](https://www.loom.com/share/3dc5bc47516544e39eb1411529dec724)
+
 ## Screenshots
 ![Home](./public/desktop.png)
 ![Details](./public/mobile.png)
