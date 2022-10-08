@@ -6,12 +6,12 @@ const Navbar = () => (
       <NavLink to="/">
         <i className="bi bi-arrow-left-circle-fill" />
       </NavLink>
-      <h1>Home</h1>
+      <h1 className="navbar-brand">Home</h1>
     </div>
     <div className="page-title">
-      <h1>React Coin Gecko </h1>
+      <h1 className="navbar-brand">React Country Gecko </h1>
     </div>
-    <div className="nav-icons">
+    <div className="nav-icons navbar-brand">
       <i className="bi bi-mic-fill" />
       <i className="bi bi-gear-fill" />
     </div>

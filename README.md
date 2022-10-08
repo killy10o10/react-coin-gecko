@@ -16,7 +16,8 @@
 - [App Live Link]()
 
 ## Screenshots
-![Home]()
+![Home](./public/desktop.png)
+![Details](./public/mobile.png)
 
 
 

@@ -92,3 +92,31 @@
   border: 1px solid #eee;
   box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+
+.details-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+}
+
+.table,
+.details {
+  box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: #e3f2fd71;
+  border-radius: 4px;
+}
+
+.table img {
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-label {
+    width: 80%;
+  }
+
+  .search-label i {
+    left: 80%;
+  }
+}
