@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React coin Gecko
->  This is a mobile webapp which uses real live data from coingecko API and populates the homepage with current market prices of various crypto currencies. It has a search feature wheere user can search for any coin from the api and then get more details of the coin on a new page when selected.
+# React Country Gecko
+>  This is a mobile webapp which uses real live data from restCountries API and populates the homepage with a list of countries, their names, flag, population and capital city. It has a search feature where user can search for any country from the api and then get more details of the country on a new page when selected.
 
 ## Built With
 
@@ -15,8 +15,13 @@
 
 - [App Live Link]()
 
+## Video Presentation
+
+- [Video presentation](https://www.loom.com/share/3dc5bc47516544e39eb1411529dec724)
+
 ## Screenshots
-![Home]()
+![Home](./public/desktop.png)
+![Details](./public/mobile.png)
 
 
 
@@ -34,15 +39,15 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - open a terminal
-- run ` git clone git@github.com:killy10o10/react-coin-gecko.git`
-- run ` cd react-coin-gecko`
+- run ` git clone git@github.com:killy10o10/react-country-gecko.git`
+- run ` cd react-country-gecko`
 - run `npm install`
 - run `npm run dev` your default browser should load automatically with the app, if it doesn't do next and final step.
 - Enter `http://127.0.0.1:5173/` in your browser
 
 ### Usage
 
-- It can be used to book tickets to space.
+- It can be used to get more infomation on any country in the world.
 
 ## Author
 
@@ -60,11 +65,17 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+ ## Original Design By
+ -Nelson Sakwa
 
+
+## Acknowledgments
 -Microverse community
+-Nelson Sakwa
+
 
 - Hat tip to Microverse's code reviewers and to everyone who reviewed my project and made suggestions.
+- Thanks to Nelson Sakwa for the beautiful design.
 
 ## 📝 License
 
