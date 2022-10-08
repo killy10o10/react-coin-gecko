@@ -9,7 +9,7 @@ const Navbar = () => (
       <h1 className="navbar-brand">Home</h1>
     </div>
     <div className="page-title">
-      <h1 className="navbar-brand">React Coin Gecko </h1>
+      <h1 className="navbar-brand">React Country Gecko </h1>
     </div>
     <div className="nav-icons navbar-brand">
       <i className="bi bi-mic-fill" />

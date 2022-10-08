@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test HomeList renders correctly 1`] = `
+<section
+  className="country-section-container"
+>
+  <label
+    className="search-label"
+    htmlFor="search"
+  >
+    <input
+      className="search-bar"
+      id="search"
+      onChange={[Function]}
+      placeholder="Search Country"
+      type="text"
+      value=""
+    />
+    <i
+      className="bi bi-search"
+    />
+  </label>
+  <section
+    className="country-section"
+  />
+</section>
+`;
